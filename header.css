@@ -9,21 +9,21 @@ a {
 }
 
 /* header */
-img {
+/* img {
   width: 45px;
   height: 45px;
-}
-
+} */
 
 .logo {
-  width: 124px;
+  margin-left: 120px;
+  width: 220px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .header {
   background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -37,7 +37,6 @@ img {
 .header-left {
   float: left;
 }
-
 
 .header ul {
   margin: 0;
@@ -72,7 +71,7 @@ img {
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition: max-height 0.2s ease-out;
 }
 
 /* menu icon */
@@ -90,18 +89,18 @@ img {
   display: block;
   height: 2px;
   position: relative;
-  transition: background .2s ease-out;
+  transition: background 0.2s ease-out;
   width: 18px;
 }
 
 .header .menu-icon .nav-icon:before,
 .header .menu-icon .nav-icon:after {
   background: #333;
-  content: '';
+  content: "";
   display: block;
   height: 100%;
   position: absolute;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
   width: 100%;
 }
 
@@ -119,21 +118,21 @@ img {
   display: none;
 }
 
-.header .menu-btn:checked~.menu {
+.header .menu-btn:checked ~ .menu {
   /* max-height: 340px;   */
   max-height: 100%;
 }
 
-.header .menu-btn:checked~.menu-icon .nav-icon {
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
   background: transparent;
 }
 
-.header .menu-btn:checked~.menu-icon .nav-icon:before {
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
   transform: rotate(-45deg);
   top: 0;
 }
 
-.header .menu-btn:checked~.menu-icon .nav-icon:after {
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   transform: rotate(45deg);
   top: 0;
 }
@@ -145,7 +144,6 @@ img {
     width: 105px;
     height: 45px;
   }
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -172,7 +170,6 @@ img {
     width: 105px;
     height: 45px;
   }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -189,7 +186,6 @@ img {
     width: 105px;
     height: 45px;
   }
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -198,5 +194,4 @@ img {
     width: 105px;
     height: 45px;
   }
-
 }
