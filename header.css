@@ -17,7 +17,7 @@ img {
 .logo {
   width: 124px;
   margin-top: 10px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 
@@ -25,11 +25,11 @@ img {
 
 .header {
   background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
   position: fixed;
   width: 100%;
   z-index: 3;
-top:0;
+  top: 0;
 }
 
 .header a {
@@ -121,32 +121,32 @@ top:0;
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
- /* max-height: 340px;   */
+.header .menu-btn:checked~.menu {
+  /* max-height: 340px;   */
   max-height: 100%;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon {
+.header .menu-btn:checked~.menu-icon .nav-icon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+.header .menu-btn:checked~.menu-icon .nav-icon:before {
   transform: rotate(-45deg);
-  top:0;
+  top: 0;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+.header .menu-btn:checked~.menu-icon .nav-icon:after {
   transform: rotate(45deg);
-  top:0;
+  top: 0;
 }
 
 /*
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-img {
-  width: 105px;
-  height: 45px;
-}
+  img {
+    width: 105px;
+    height: 45px;
+  }
 
 }
 
@@ -155,48 +155,51 @@ img {
   .header li {
     float: left;
   }
+
   .header li a {
     padding: 20px 30px;
   }
+
   .header .menu {
     clear: none;
     float: right;
     max-height: none;
   }
+
   .header .menu-icon {
     display: none;
   }
 
-img {
-  width: 105px;
-  height: 45px;
-}
+  img {
+    width: 105px;
+    height: 45px;
+  }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-img {
-  width: 85px;
-  height: 45px;
+  img {
+    width: 85px;
+    height: 45px;
+  }
 }
-} 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-img {
-  width: 105px;
-  height: 45px;
-}
+  img {
+    width: 105px;
+    height: 45px;
+  }
 
-} 
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-img {
-  width: 105px;
-  height: 45px;
-}
+  img {
+    width: 105px;
+    height: 45px;
+  }
 
 }
 
