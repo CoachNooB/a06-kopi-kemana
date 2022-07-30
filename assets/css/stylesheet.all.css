@@ -52,35 +52,6 @@
 	color: #ffffff;
 }
 
-/*  6. VIDEO SECTION */
-.promo-video,
-.promo-video h1,
-.promo-video h2,
-.promo-video h3,
-.promo-video h4,
-.promo-video h5,
-.promo-video h6 {
-	color: #fff;
-}
-.promo-video h1 {
-	font-size: 70px;
-	font-weight: 900;
-}
-.video-btn button {
-	width: 70px;
-	height: 70px;
-	display: inline-block;
-	line-height: 70px;
-	font-size: 25px;
-	border-radius: 50%;
-	color: #fff;
-	border: 1px solid #d1d1d1;
-}
-.video-btn button:hover {
-	background: #fff;
-	color: #38C695
-}
-
 #menu-section {
   background-color: #fff;
   padding-bottom: 100px;
